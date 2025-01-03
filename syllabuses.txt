@@ -1,0 +1,139 @@
+-> FOR PLACEMENT 
+
+
+-----
+OOPS
+-----
+-----
+JAVA
+-----
+-----
+HTML
+-----
+----
+CSS
+----
+--------
+ANSI SQL
+--------
+----------
+JAVASCRIPT
+----------
+----------------
+TREES AND GRAPH
+----------------
+-------
+PYTHON
+-------
+-----------------
+MACHINE LEARNING
+-----------------
+---------
+React.js 
+---------
+---------------
+Git and GitHub
+---------------
+--------
+Node JS
+--------
+-------------
+Express JS
+-------------
+--------
+Next JS
+--------
+----
+IoT 
+----
+-------------------
+OOP quick revision
+-------------------
+-----
+DBMS 	
+-----
+------------------
+Operating Systems 
+------------------
+---------------------
+Linux Command's & QA
+---------------------
+------------------------
+Computer Networks (CCN) 
+------------------------
+------------------------
+Low-Level System Design 
+------------------------
+-------------------------
+High-Level System Design 
+-------------------------
+
+
+-----------
+Additional
+-----------
+1. Algorithms and Data Structures (Advanced)
+Advanced algorithms (e.g., Dynamic Programming, Backtracking, Greedy Algorithms)
+Graph algorithms (e.g., Dijkstra’s, A*, BFS, DFS, Minimum Spanning Tree)
+Advanced data structures (e.g., Trie, Segment Tree, Fenwick Tree, Disjoint Set Union)
+
+2. System Design (Beyond Basics)
+Distributed Systems (e.g., CAP theorem, Consensus algorithms like Paxos and Raft)
+Caching Techniques (Redis, Memcached)
+Load Balancing and Replication (Concepts like sharding, consistent hashing)
+Message Queues and Streaming (Kafka, RabbitMQ, Pub/Sub)
+
+3. Concurrency and Multithreading
+Threads, locks, and concurrency issues
+Java multithreading or Python threading (if applying for backend/Java roles)
+Asynchronous programming (e.g., async/await in JavaScript and Python)
+
+4. Database and Data Engineering
+NoSQL Databases (MongoDB, Cassandra, DynamoDB)
+Data Warehousing (Redshift, BigQuery)
+ETL Pipelines and Data Processing (Hadoop, Spark)
+
+5. Cloud Technologies and DevOps
+AWS, Google Cloud Platform (GCP), or Azure basics
+Docker and Kubernetes for container orchestration
+Infrastructure as Code (IaC) tools like Terraform
+
+6. Security Fundamentals
+Web Security (e.g., XSS, CSRF, SQL Injection, authentication/authorization)
+Encryption (SSL/TLS, RSA, AES)
+Security best practices in web and mobile applications
+
+7. Machine Learning Engineering (For ML Roles)
+Deployment of ML Models (e.g., MLOps, model versioning, APIs for ML models)
+Model Optimization (e.g., pruning, quantization)
+Experiment Tracking and Pipelines (MLflow, Airflow)
+
+8. Big Data Tools
+Basics of Apache Spark, Apache Kafka, and Hadoop
+Familiarity with data pipelines, batch and real-time processing
+
+9. Software Testing and Quality Assurance
+Unit Testing, Integration Testing (JUnit, Jest, Pytest)
+CI/CD Pipelines for automating builds and tests
+Test Automation Tools (Selenium, Cypress)
+
+10. Mathematics for Machine Learning and Cryptography
+Linear Algebra (e.g., matrices, vectors, eigenvalues)
+Probability and Statistics for data science and ML
+Cryptographic fundamentals for security-related roles
+
+11. Embedded Systems (For IoT and Hardware Roles)
+Basics of embedded systems and microcontrollers (e.g., Arduino, Raspberry Pi)
+Real-Time Operating Systems (RTOS) 
+
+
+
+----------------------
+Links ::::::::::::::::
+----------------------
+
+placement 1 : https://chatgpt.com/share/671f3c78-af8c-800b-a455-b2d6ee8b9971
+placement 2 : https://chatgpt.com/share/6721df23-7f14-800b-a40e-c2bcd1a3a29c
+QA : https://chatgpt.com/share/6721b360-a6dc-800b-bee1-1bb21710289f
+Resume : https://chatgpt.com/share/670f54bc-5104-800b-9dce-f24ab0d18004
+IP : https://chatgpt.com/share/672727c1-73ec-800b-ab63-6ac3d383967b
