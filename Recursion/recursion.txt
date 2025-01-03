@@ -1,0 +1,13 @@
+function call it self
+need a stop condition
+
+stack overflow : function wait in memory to return starement from next function like that...
+function call are waiting in memory : memory -  stack called stack overflow
+depend on compliler to how much memory are there ...
+
+
+// this all are function use it for easy
+tolower()
+toupper()
+isalnum()
+isalpha()

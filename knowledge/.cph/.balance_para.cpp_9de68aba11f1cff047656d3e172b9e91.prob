@@ -1,0 +1,1 @@
+{"name":"Local: balance_para","url":"d:\\Programming\\Competitve_programing\\knowledge\\balance_para.cpp","tests":[{"id":1706976464901,"input":"3\n{[()]}\n{[(])}\n{{[[(())]]}}","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\Competitve_programing\\knowledge\\balance_para.cpp","group":"local","local":true}

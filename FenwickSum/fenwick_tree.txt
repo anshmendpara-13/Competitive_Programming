@@ -1,0 +1,33 @@
+use two's power to represet
+
+how to find next index which are effected 
+i) find 2's complement
+ii) & with original number
+iii) add to original number
+
+above three step eqution below :
+i = i + (i & (-i));
+
+all thing time complexity is O(log(n));
+
+int fen[N];
+
+void update(int i, int add){
+    while(i<N){
+        fen[i] += add;
+        i += (i & (-i));
+    }
+}
+
+int sum(int i){
+    int s = 0;
+    while(i>0){
+        s += fen[i];
+        i -= (i & (-i));
+    }
+    return s;
+}
+
+int rangesum(int l, int r){
+    return sum(r) - sum(l-1);
+}

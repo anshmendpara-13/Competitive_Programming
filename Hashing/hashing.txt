@@ -1,0 +1,26 @@
+prestoring and fetching called hashing 
+so, we make hash array/ freqency array
+
+inside main array max size is 10^5  || bool array 10^7
+globle array max size is 10^7 || bool array 10^9
+
+globle default declare is zero
+
+a = 97
+A = 65
+0 = 48
+
+
+*** map and unordered_map ***
+map<key,value> 
+unordered_map<key,value>
+
+time complexity in map : storing and fetching log(N) in all cases :: this store in sorted manner
+in unordered_map : storing  and fetching O(1) best and O(N) worst :: not particular order
+
+hashing : division method, folding method, mid square method
+                (%10)
+        chain-in-sorted-order
+
+collision : huge chain so called (all have same hash number so collision occure)
+

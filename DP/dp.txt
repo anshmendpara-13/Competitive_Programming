@@ -1,0 +1,15 @@
+understand a DP problem
+- count total no of ways
+- min/max output
+- try all possible way (best way)
+
+1. try to represent in term of index
+2. do all possible stuffs on that index according to the problme statement
+3. sum of all stuffs -> count all ways
+4. min (of all stuffs) -> if find min
+
+
+** memoization (top-down)
+** tebulation (bottom-up)
+
+if we have use some index value in problme freqntly so space optimisation are there.

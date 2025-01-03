@@ -1,0 +1,1 @@
+{"name":"Local: STL_nesting","url":"d:\\Programming\\Competitve_programing\\knowledge\\STL_nesting.cpp","tests":[{"id":1706971439283,"input":"3\na b 4\n1 2 3 6\ne f 2\n6 9\na a 5\n1 3 2 1 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\Competitve_programing\\knowledge\\STL_nesting.cpp","group":"local","local":true}

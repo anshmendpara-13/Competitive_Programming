@@ -1,0 +1,349 @@
+
+// main is a function program start from the main function
+// in programming 0 only false another are true
+// also we type casting
+// in char store the ascci value and when perform the operation then perform the operation
+// calculation in higher data type
+// dobule > float > long long int > long int > int > charaters
+
+// ranges
+// -10^9 < int < 10^9
+// -10^12 < long int < 10^12
+// -10^18 < long long int < 10^18
+
+// INT_MAX
+// INT_MIN
+
+// 1LL - long long int
+// fixed - for normal print
+// setprecision(0) - for double regular print like double
+// double not store accurate number in large number
+
+// take care of scope of variable
+
+// loop - (inialisation; condition; operations)
+
+// break
+// continue
+
+
+// string - not contain space, we also use the index, charaters assign '', string write in "", .size()
+// getline(cin, string_name) - input full line
+
+
+// cin - break when find space and \n(new line)
+// solution - cin.ignore()
+
+// string we use .push_back() - this complexity is O(1)
+
+
+// very long number strore in string
+// int val = str[str.size()-1] - '0'; - this store a origial value(in int type) of last charater of the string.
+
+
+// segmentation occure when we use(access) that memory which are not define/assign.
+// charater array one type of string 
+
+// in 2D array first mention row then column because it's a matrix
+
+// localy define array size 1e5 (MAX) ->> this store in stack(grows down) hsa a size limit (eg. 8 mb)
+// globaly define array size 1e7 -  in this case we difine array size like ->> const int n = 1e7 (MAX) ->> data segment
+
+
+// int &n ->> by reference, int n ->> by value
+// & for by reference change the value
+
+
+// array's always pass threw the by reference
+// in array only skip first dimention but after need to pass second dimention
+// but in CP  we don't know how many element will be there so we pass through two dimentions ->> we not use this we declaire matrix or array as a globaly.
+
+// pointers store the address ->> *x
+// &x give the address
+// x give the value
+// * ->> value at 
+// ** ->> store double pointer address value
+// we change the value using * and ** direct
+// array point to address of first element
+
+// pass by reference ->>  & , pass by value -> > , pass by reference ->>>* [we pass the address and in the function use the pointer]
+
+
+ERRORS :-
+compilation
+execution
+compilation time
+execution time -TLE
+
+header file increase compilation time
+
+
+Runtime Error / Memory access error :
+because of stack overflow or heap overflow
+segmentation fault :->> access memory which is not defined
+
+time complexity ->> number of iterations
+1 sec ->> 10^7 - 10^8
+
+one divide into two untill end ->> O(log(n))
+
+
+-->> sum of N over all test cases is < 10^7  means that code counter will be less than 10^7
+-->> print answer in 10^9 
+
+
+*** formula ***
+(a+b)%M = ((a%M)+(b%M))%M
+(a*b)%M = ((a%M)*(b%M))%M
+(a-b)%M = ((a%M)-(b%M)+M)%M
+(a/b)%M = ((a%M)*(b^-1)%M)%M  // b^-1 multiplicative inverse
+
+Integer MAX range for modulo ->> 10e9 + 7  (prime number) (we also find the multiplicative inverse)-->> this store in only int not need of ll int
+
+pre-computation technique for TLE
+pre-compilation one base index is good.
+
+// syntex *****
+max value = *max_element(arr, arr + n) -->> time complexity O(n)
+
+
+// recursion - function call it self
+// this function call store in stack
+// recursion code have base condition
+
+// absolute value -->> abs(n)
+
+// time complexity
+1. number of function calls
+2. what is complexity of each function
+after getting that multiplication above two answer.
+
+
+// how many time's we divide the number with 10 -->> log base 10(number)
+
+
+// ******* STL ******** ->> standard template library
+#include<bits/stdc++.h>                     // include all header files from c
+using namespace std;                        // using directives
+
+containers :-
+
+sequential ::
+vector
+stack
+queue
+pair(not a container)
+
+unordered ::
+unordered map
+unordered set
+
+orderd ::
+maps
+multi maps
+set
+multi sets
+
+nested containers ::
+vector<vector<int>>
+map<int, vector<int>>
+set<pair<int, string>>
+vector<map<int, set<int>>>
+
+iterators ::
+point to memory address of containers
+begin() end()
+
+vector<int> :: iterator it;
+
+algorithms ::
+upper bound
+lower bound
+sort(comparator)
+max_element
+min_element
+accumulate
+reverse
+count
+find
+next permutations
+prev permutations
+
+functors ::
+classes which can act as functions
+
+In this we pass the value  not reference.
+if we want  to modify the values then we have to use & operator.
+
+vector local limit 1e5
+vector globle limit 1e7
+
+iterator .begin() and .end()
+
+
+it++  -->> next iterator
+it+1  -->> next location
+
+In case of vector above are same 
+In case of map above are not same
+
+auto -->> dynamic determine data type
+
+
+// ********  sort map in monk question  *********
+
+
+stack - LIFO data structure
+top and size access only
+element insert into top
+push
+pop
+top
+
+queue - FIFO data structure
+push
+pop
+front
+
+
+// upper_bound and lower_bound return the location in case of array return index and in case of vector retrun iterator
+
+
+// monotonic ->> which are not change that with called monotonic -->> we apply binary search on that
+// search space (one type of search space) on binary search is where we want to find our value
+
+// setprecision(10) -->> very usefull for set precision
+
+// predicate function - which return true or false -->> this apply in monotonic function (ex..(FFFFTTTTT),(TTTTTTFFFFFFF))
+
+
+// time complexity in recursion function --> use DAA notes
+
+// MATHS AND NUMBER THEORY
+
+
+quotient = dividend / divisor;
+remainder = dividend % divisor;
+
+
+a*b/gcd = lcm
+gcd = __gcd(n,m)
+
+
+
+***************************** Extra ****************************
+extended euclid's algorithm
+miller rabin algorithm
+
+
+bits manupulation : geeksforgeeks
+MSB
+LSB
+set
+unset
+1<<x -> for bit set x position ex.. 1<<0 = 1, 1<<1 = 10, 1<<2 = 100
+
+
+if the question is : given a set, find XOR of the XOR's of all subsets.
+ans : if n = 1 so solution is s[0] else answer is zero(0) always.
+
+
+****** IMPORTANT *******
+in question if use =, |, & so always do all small operation in ().
+
+inclusive and exclusive
+
+************** Graph and Tree *****************
+algorithms **
+- dijkstra
+- bellman ford
+- disjoint set union
+- minimum spanning Tree
+- diercted acyclic Graph
+- topological sort
+
+************* Terminology
+vertex 
+edge
+
+graph edges or vertex collection
+edges are directional or unidirectional
+
+graph have no cycle so called tree 
+no of vertex same in both
+
+tree have -> n nodes so -> n-1 edges
+Graph can be directed or undirected
+Graph can have cycles or not
+Graph can have weight on edge
+subtree  root node will always be parent of child node.
+leaf node  -> node with degree 1
+root node -> node with degree 0
+depth of tree  -> number of edges from root to leaf node.
+height of tree -> maximum depth of any leaf
+(LCAS) -> lowest common ancestor
+
+strongly connected graph -  every pair of vertices has a path
+weakly connected graph - there exists at least
+
+forest  - a collection of trees
+connected component - a subset of vertices such that
+every pair of vertices is reachable from any other pair of vertices.
+
+
+********************** vector of vector print
+    // for (auto mv : v)
+    // {
+    //     for (auto val : mv)
+    //     {
+    //         cout << val << " ";
+    //     }
+
+    //     cout << endl;
+    // }
+**********************************************
+
+contest 388 -> 3074, 3075, 3076, 3077
+
+/* dynamic programming -> way to solv problem optimaly */
+
+
+/* Knapsack Concept */
+- 0/1 Knapsack
+- unbounded Knapsack
+- Subset sum
+- Rod Cutting
+
+
+/* Advance problem */
+- allocation book, painter's partition, spilt array largest sum
+
+
+/* String DP */
+- longest common subsequence
+- longest common substring
+- edit distance
+
+
+/* Sliding Window */
+
+Array and String questions
+
+-> fixed size Window
+-> dynamic size Window
+
+There are two type of questions are there
+1. find Window with given property
+2. Window given find the element in ith position
+
+
+--> constant Window
+--> longest subarray/substring where condition
+-> Window Expand and Shrink
+--> no of subarray where some condition
+-> using pattern
+--> shortest/minimum Window where condition
+
+
+/* Type Conversion */
+static_cast<any_datatype>

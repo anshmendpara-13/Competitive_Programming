@@ -1,0 +1,1 @@
+{"name":"Local: covid_rush","url":"d:\\Programming\\Competitve_programing\\knowledge\\covid_rush.cpp","tests":[{"id":1709753049084,"input":"5 3\n1 3 6 7 10\n6 10 1 10 1","output":"2 1 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\Competitve_programing\\knowledge\\covid_rush.cpp","group":"local","local":true}

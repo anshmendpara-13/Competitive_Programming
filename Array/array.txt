@@ -1,0 +1,22 @@
+initialise array inside main so garbage value are there
+in global zero initial
+
+local max array size 10^6
+global max array size 10^7
+
+int size = sizeof(arr)/sizeof(arr[0]); // size of array
+
+brute < better < optimal solutions
+
+n = remove(arr, arr + n, maxi) - arr; // after delete largest element from the array give the size of new array
+
+rotate(nums.begin(), nums.begin() + k, nums.end()); // vector rotate, k = how many position to rotate
+
+for(auto it = s.begin(); it != s.end(); ++it) // iterator loop code
+
+ans.erase(unique(ans.begin(), ans.end()), ans.end()); // erase duplicate element from the vector
+
+ans.erase(remove(ans.begin(), ans.end(), elemenet), ans.end()); // remove particular element from the vector
+
+*** permutation ***
+next_permutation(a.begin(),a.end());

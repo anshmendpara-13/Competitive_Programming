@@ -1,0 +1,78 @@
+array are fixed size and store in continueous location
+array store in heap
+easy to travels
+
+linked list 
+not continueous 
+stack and queue are use linked list
+always use in browser(one page to another page in one tab)
+
+self define object::
+struct Node{
+    int data;
+    Node* next;
+    Node(datatype data1,Node* next1){
+        data = data1;
+        next = next1;
+    }
+}
+
+**************************************
+Node x = Node(val, nullptr);
+Node *y = &x;
+
+or
+
+Node* y = new Node(val, nullptr);
+**************************************
+
+memory space::
+32 bit system
+int 4 bytes
+* 4 bytes
+
+64 bit system
+int 4 bytes
+* 8 bytes
+
+deletion and insertion in linked list
+i) head 
+ii) position
+iii) value
+iv) last
+
+*** java has garbage collector ***
+
+DLL :: 
+struct Node{
+    int data;
+    Node* next;
+    Node* prev;
+    Node(datatype data1,Node* next1, Node* prev1){
+        data = data1;
+        next = next1;
+        prev = prev1;
+    }
+}
+
+making dummy nodes::
+ListNode dummy(0); 
+ListNode* current = &dummy;
+
+*** reverse linkedlist ***
+
+Node* reverselinkedlist(Node* head) {
+    if (head == nullptr || head->next == nullptr) return head;
+    Node* newhead = reverselinkedlist(head->next);
+    head->next->next = head;
+    head->next = nullptr;
+    return newhead;
+}
+
+*** design browser history ***
+browser home page
+visit (url)
+back (steps)
+forward (steps)
+
+constructor home page is first query

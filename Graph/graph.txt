@@ -1,0 +1,42 @@
+undirected graph 
+directed graph
+
+node - vertex
+links - edges 
+
+cycles in graph - start from a node and end to that node
+
+degrees of grpah - total no of edged inside or outside to that
+
+edge weight - unit weight (by default)
+
+connected/unconnected components
+
+visited array
+ 
+*** 4-direction
+int dr[] = {-1, 0, 1, 0};
+int dc[] = {0, 1, 0, -1};
+
+*** 8-direction
+int dr[] = {-1, -1, -1, 0, 0, 1, 1, 1};
+int dc[] = {-1, 0, 1, -1, 1, -1, 0, 1};
+
+
+**** Euler's Characteristic ****
+
+Euler's characteristic is a fundamental formula in topology that relates the number of vertices (V), edges (E), and faces (F) of a polyhedron. For a convex polyhedron, Euler's characteristic states:
+
+𝑉+𝐹−𝐸=2
+
+Vertices (V): The number of corner points of the polyhedron.
+Edges (E): The number of line segments between the vertices.
+Faces (F): The number of polygonal regions including the outer face.
+
+*** pick theorem *** 
+Using the adjusted area (twice the actual area) and boundary points, we calculate the number of interior points using:
+ 
+Interior Points= Area− (BoundaryPoints)/2 +1
+
+*** cuboid area ***
+A=2(lw+lh+wh)

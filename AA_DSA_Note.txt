@@ -1,0 +1,76 @@
+solv a problem
+given value
+approach
+
+flowchart
+terminator - start and end
+input - input data
+output - output data
+process
+decision making 
+
+// triangle valid or not ->> sum of two side > another remain side
+
+programming language : program(source code) <-> compiler(executable file) <-> binary(computer) 
+
+
+conditional  statement: if, else if, switch case
+
+'1' -> 49
+'A' -> 65
+'a' -> 97
+
+
+cin >> a;    -->> not read space, tab, enter
+a = cin.get()   -->> read all the things
+
+if ->> check all the condition but we use else if ->> if any block are true then rest of are not check and breck 
+
+
+
+**** in place algorithm ***
+An in-place algorithm is an algorithm that does not need an extra space and produces an output in the same memory that contains the data by transforming the input 'in-place'. However, a small constant extra space used for variables is allowed.
+
+
+***************  int mid = s + (e - s) / 2;
+
+
+
+// *********** Trees *************
+tree is non-linear data structure
+basic terms :-
+node 
+root
+children
+parent
+sibling - which node have same parent callded sibling
+ancestor - bottom to top nodes list or perticular node
+descendent - top to bottom nodes list or perticular node
+leaf - which node don't have any children
+
+binary tree have <= 2 nodes
+in this case 1 data and 2 pointer, one have *left child, one have *right child
+
+which tree have more than 2 child
+in this case 1 data and list<node*> child;
+
+
+
+
+// disjoint set
+find parent or find set
+union or union set
+union by rank and path compression
+
+In starting every component are it's own parent
+staring every element rank are zero -> maintain one array
+then we do union
+rank wise we apply the parent element
+
+
+*** remove all duplicate element form the array *** 
+ans.erase(unique(ans.begin(), ans.end()), ans.end());
+
+
+
+

@@ -1,0 +1,1 @@
+{"name":"Local: freq_print","url":"d:\\Programming\\Competitve_programing\\knowledge\\freq_print.cpp","tests":[{"id":1706960450557,"input":"8\nohm\nansh\nohm\nhk\nansh\nhk\nhk\nansh\n2\nansh\nhk","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\Competitve_programing\\knowledge\\freq_print.cpp","group":"local","local":true}

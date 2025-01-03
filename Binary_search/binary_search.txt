@@ -1,0 +1,15 @@
+// for leetcode fast execution
+
+std::ios_base::sync_with_stdio(false);
+std::cin.tie(NULL);
+
+
+1D INTO 2D : M = number of columns
+1D_INDEX/M - row
+1D_INDEX%M - col
+
+
+morris travelsar is threaded binary tree
+space complexity of travelsar is O(1)
+
+

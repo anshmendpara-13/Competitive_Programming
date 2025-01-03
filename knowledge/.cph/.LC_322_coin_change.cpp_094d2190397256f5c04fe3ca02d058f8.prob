@@ -1,0 +1,1 @@
+{"name":"Local: LC_322_coin_change","url":"d:\\Programming\\Competitve_programing\\knowledge\\LC_322_coin_change.cpp","tests":[{"id":1711210712933,"input":"3 11\n1 2 5","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\Competitve_programing\\knowledge\\LC_322_coin_change.cpp","group":"local","local":true}

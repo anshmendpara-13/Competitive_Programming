@@ -1,0 +1,1 @@
+{"name":"Local: CF_1354D_multiset","url":"d:\\Programming\\Competitve_programing\\DSA\\FenwickSum\\CF_1354D_multiset.cpp","tests":[{"id":1717997566909,"input":"5 4\n1 2 3 4 5\n-5 -1 -3 -1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\Competitve_programing\\DSA\\FenwickSum\\CF_1354D_multiset.cpp","group":"local","local":true}

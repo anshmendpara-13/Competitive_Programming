@@ -1,0 +1,1 @@
+{"name":"Local: factorial","url":"d:\\Programming\\Competitve_programing\\knowledge\\factorial.cpp","tests":[{"id":1706788512323,"input":"2\n5\n7","output":"120\n5040"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\Competitve_programing\\knowledge\\factorial.cpp","group":"local","local":true}

@@ -1,0 +1,13 @@
+*** string to words ***
+vector<string> words;
+stringstream ss(s);
+string word;
+while (ss >> word)
+    words.push_back(word);
+
+*** erase first element in string ***
+s.erase(s.begin());
+
+*** remove prefix particular from string ***
+const regex pattern("^0+(?!$)");
+s = regex_replace(s, pattern, "");

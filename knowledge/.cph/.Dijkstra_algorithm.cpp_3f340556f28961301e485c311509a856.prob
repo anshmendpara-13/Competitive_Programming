@@ -1,0 +1,1 @@
+{"name":"Local: Dijkstra_algorithm","url":"d:\\Programming\\Competitve_programing\\knowledge\\Dijkstra_algorithm.cpp","tests":[{"id":1711162268975,"input":"3 3 \n2 1 1\n2 3 1\n3 4 1\n4 2","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\Competitve_programing\\knowledge\\Dijkstra_algorithm.cpp","group":"local","local":true}

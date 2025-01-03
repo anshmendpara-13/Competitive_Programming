@@ -1,0 +1,50 @@
+five type of binary trees
+i) full binary tree
+ii) complete binary tree
+iii) perfect binary tree
+iv) balanced binary tree
+v) degenerate tree (every node have single children)
+
+// declaration of tree
+struct Node{
+    int data;
+    struct Node* right;
+    struct Node* left;
+    Node(int val){
+        data = val;
+        right = NULL;
+        left = NULL;
+    }
+}
+
+// make the root node
+struct Node *root = new Node(val);
+
+traversal technique ::
+inorder traversal (left root right)
+preorder traversal (root left rihgt)
+pastorder traversal (left rihgt root)
+
+
+arr.clear(); // for clear the data of array
+
+
+*** value to pointer find code ***
+Node* targetNode = nullptr;
+        queue<Node*> q;
+        q.push(root);
+        while (!q.empty()) {
+            auto current = q.front();
+            q.pop();
+            if (current->data == target) {
+                targetNode = current;
+                break;
+            }
+            if (current->left) q.push(current->left);
+            if (current->right) q.push(current->right);
+        }
+
+        if (!targetNode) return -1; 
+    
+*** no of unique binary tree formula ***
+= 2^n - n // n is number of nodes 

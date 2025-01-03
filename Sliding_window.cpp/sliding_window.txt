@@ -1,0 +1,17 @@
+two pointer / sliding window
+
+window are expand and shrink
+
+// there are many types 
+1. constant window
+2. longest substring / subarray  (some condition)
+3. no of sub arrays and some conditions ( using pattern )
+4. finding shortest/minimum (condition)
+
+bruteforce
+better 
+optimisation
+
+
+*** Questions ***
+3. Longest Substring Without Repeating Characters (logic :- str.find(str[i])!=string::npos)

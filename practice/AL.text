@@ -1,0 +1,141 @@
+***************************************
+#include<bits/std++.h>
+using namespace std;
+
+***************************************
+getline(cin,string_name);
+
+***************************************
+stringstream ss(sentence);
+string word;
+vector<string> words;
+while (ss >> word)
+    words.push_back(word);
+
+***************************************
+M_PI for math.pi;
+
+***************************************
+functions :
+void - which does not return anything
+return 
+parameterised
+non parameterised
+
+***************************************
+1 sec = 10^8
+n sec = n*(10^8)
+
+***************************************
+patten problems
+1. for the outer loop, count the number of lines
+2. for the inner loop, focus on colums and connect then somehow to the rows
+3. print them '*' inside the inner loop
+4. observation symmetry
+
+***************************************
+emplace_back() is faster than push_back()
+vector<int>::iterator it = v.begin(); // !v.end() // it++ -->> iterator point the element in memory
+v.back() -->> last element in vector
+v.at(index) -->> element at index
+v.erase(index)
+v.erase(v.begin(),v.end()) --> [.,.,.,.,.)
+v.insert(element)
+v1.swap(v2)
+v.clear()
+v.pop_back()
+
+***************************************
+list<int> li;
+li.push_front();
+li.push_back();
+li.emplace_front()
+li.emplace_back();
+
+***************************************
+deque<int> dq;
+// all functions which mention above apply here
+
+***************************************
+stack<int> st; -->> LIFO
+st.push()
+st.top()
+st.empty()
+st.emplace()
+
+***************************************
+queue<int> qe; -->> FIFO
+qe.push()
+qe.front()
+qe.bach()
+qe.front()
+
+***************************************
+proiority_queue<int> pq; // max heap -> data store as tree
+pq.top()
+pq.push()
+pq.emplace()
+proiority_queue<int,vector<int>,greater<int>> pqv; // min heap
+
+***************************************
+set<int> st;
+st.insert()
+st.emplace()
+auto it = st.find()
+st.erase() 
+st.count()
+st.erase(st.begin(),st.end()) 
+st.lower_bound()
+st.upper_bound()
+
+*** multiset ***
+multiset<int> mst;
+mst.insert()
+mst.find()
+mst.erase(mst.find()) -> single element erase
+
+*** unordered_set ***
+unordered_set<int> st; // upper_bound and lower_bound not work all functions time complexity O() //  not stored in sorted order
+
+****************************************
+lower_bound & upper_bound
+
+****************************************
+map<int,int> mp;
+map<int,pair<int,int>> mp;
+key - value store
+mp[key] = value
+mp.emplace({key,value})
+mp.insert({key,value})
+
+for(auto it:mp){
+    it.first 
+    it.second
+}
+
+auto it = mp.find(value)
+mp.upper_bound()
+mp.lower_bound()
+
+*** unordered_map ***
+unordered_map<int,int>> mp;
+
+sort(a,a+n,greater<int>);
+sort(a,a+n,comp);
+sort(a.begin(),a.end());
+
+int ct = __buildin_popcountll() // count set bits in binary representation of number
+
+string s = "123";
+do{
+    cout << s << endl;
+}while(next_permutation(a.begin(),a.end()))
+
+int maxi = *max_elemet(a,a+n);
+
+/* Digit Maths */
+extraction - modulo, division
+
+/* Bit set -> binary to string, string to binary*/
+string s = bitset<32>(n).to_string();
+long ans = bitset<32>(s).to_ulong();
